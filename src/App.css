@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,59 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* /////////////////////////////////////////////////////////// */
+.headerBack{
+  background-color: black;
+}
+.btn{
+  min-width: 100px;
+  min-height: 40px;
+  color: white;
+  background-color: yellowgreen;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+.learn-more-btn{
+  min-width: 150px;
+  min-height: 40px;
+  font-size: 400;
+  color: white;
+  background-color: rgb(50, 112, 205);
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+.fast-header{
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+ margin:0 10%;
+ color: blanchedalmond;
+}
+
+.sen-header{
+  margin-left:10%;
+}
+
+.main{
+  display: grid;
+  grid-template-columns:75%  25%;
+  margin: 0 3%;
+  grid-gap: 20px;
+}
+
+.rignt-contner{
+  background-color: whitesmoke;
+  padding: 3%;
+  border: 1px solid rgb(68, 66, 66);
+  border-radius: 5px;
+}
+
+.card-display{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 25px;
 }
